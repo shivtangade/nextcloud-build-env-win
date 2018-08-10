@@ -46,7 +46,7 @@
 !define VER_MINOR "5"
 !define VER_PATCH "0"
 !define VER_BUILD "0"
-!define VERSION "2.5.0.0-beta"
+!define VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_PATCH}.${VER_BUILD}-beta"
 
 Var InstallRunIfSilent
 Var NoAutomaticUpdates
@@ -61,7 +61,7 @@ Var NoAutomaticUpdates
 ;-----------------------------------------------------------------------------
 Name "spryCloud"
 BrandingText "${APPLICATION_NAME} ${VERSION}  -- ${BUILD_TIME}"
-OutFile "C:\Users\TabFitts\SpryDev\installer\spryCloud-2.5.0.0-beta-setup.exe"
+OutFile "C:\Users\TabFitts\SpryDev\installer\spryCloud-${VERSION}-setup.exe"
 InstallDir "$PROGRAMFILES\spryCloud"
 InstallDirRegKey HKCU "Software\${APPLICATION_VENDOR}\${APPLICATION_NAME}" ""
 InstType Standard

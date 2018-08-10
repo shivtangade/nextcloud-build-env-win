@@ -23,3 +23,6 @@ cp /c/Users/TabFitts/nextcloud-toolchain/bin/ssleay32.dll $installdir/bin/
 cp $installdir/config/spryCloud/* $installdir/bin/
 windeployqt $installdir/bin
 cd $startdir
+rm -rf installer
+mkdir installer
+cmd //c "C:\Program Files (x86)\NSIS\Bin\makensis.exe" project.nsi
