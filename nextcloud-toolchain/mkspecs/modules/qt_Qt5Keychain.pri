@@ -1,0 +1,10 @@
+QT.Qt5Keychain.VERSION = 0.9.90
+QT.Qt5Keychain.MAJOR_VERSION = 0
+QT.Qt5Keychain.MINOR_VERSION = 9
+QT.Qt5Keychain.PATCH_VERSION = 90
+QT.Qt5Keychain.name = qt5keychain
+QT.Qt5Keychain.defines = 
+QT.Qt5Keychain.includes = C:/Users/TabFitts/SpryDev/qtkeychain-install/include
+QT.Qt5Keychain.private_includes =
+QT.Qt5Keychain.libs = C:/Users/TabFitts/SpryDev/qtkeychain-install/lib
+QT.Qt5Keychain.depends = core 
