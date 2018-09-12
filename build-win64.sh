@@ -10,6 +10,8 @@ cd build
 cmake -DCMAKE_INSTALL_PREFIX="$installdir" \
 	  -DCMAKE_BUILD_TYPE=Debug \
 	  -DNO_SHIBBOLETH=1 \
+	  -DMIRALL_VERSION_BUILD="10" \
+	  -DMIRALL_VERSION_SUFFIX="-spry-r8" \
 	  -DCMAKE_PREFIX_PATH="C:\Qt\5.11.1\msvc2017_64" \
 	  -DQTKEYCHAIN_LIBRARY="C:\Users\TabFitts\nextcloud-toolchain\lib\qt5keychain.lib" \
 	  -DQTKEYCHAIN_INCLUDE_DIR="C:\Users\TabFitts\nextcloud-toolchain\include\qt5keychain" \
